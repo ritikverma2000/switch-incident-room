@@ -5,7 +5,7 @@ Built for the Flip the Switch hackathon (Track 1: Best Business Workflow).
 
 ## Demo video
 
-https://youtu.be/qGR_WcwL2Us
+https://youtu.be/VLd6elHoRG4
 
 ## The problem
 
