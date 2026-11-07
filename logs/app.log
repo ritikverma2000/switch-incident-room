@@ -1,0 +1,11 @@
+2026-11-07 09:40:02 INFO  deploy cart-service v2.14.0 (coupon service now sends {"code","pct"})
+2026-11-07 09:41:55 INFO  POST /checkout 200 user=4411
+2026-11-07 09:42:10 ERROR POST /checkout 500 user=8812 coupon=FALL10
+Traceback (most recent call last):
+  File "service/cart.py", line 4, in cart_total
+    discount = subtotal * coupon["percent"] / 100
+KeyError: 'percent'
+2026-11-07 09:42:31 ERROR POST /checkout 500 user=1290 coupon=FALL10
+2026-11-07 09:43:05 INFO  POST /checkout 200 user=7781 (no coupon)
+2026-11-07 09:44:12 ERROR POST /checkout 500 user=3302 coupon=FALL10
+2026-11-07 09:44:40 WARN  checkout error rate 38% over last 5 min
